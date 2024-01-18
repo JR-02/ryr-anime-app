@@ -30,7 +30,7 @@ export const CardAnimePoster = ({ image, title, rating, premiere }: Props) => {
         alt={title}
         width={300}
         height={300}
-        className='object-cover h-[100%]'
+        className='object-cover h-full w-full'
       />
 
       <div className='flex flex-col gap-1 mx-2 my-2'>
