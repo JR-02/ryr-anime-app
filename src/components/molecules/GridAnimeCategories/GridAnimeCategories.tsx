@@ -3,7 +3,7 @@ import { animeCategoriesData } from '@/data';
 
 export const GridAnimeCategories = () => {
   return (
-    <section className='grid grid-rows-2 gap-5 grid-flow-col overflow-x-scroll scrollbar-bottom pb-4'>
+    <section className='grid grid-rows-2 gap-4 grid-flow-col overflow-x-scroll scrollbar-bottom pb-4'>
       {animeCategoriesData.map(({ category, image }) => {
         return (
           <CardAnimeCategories
