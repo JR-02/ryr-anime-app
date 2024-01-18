@@ -1,8 +1,7 @@
-import { Url } from 'next/dist/shared/lib/router/router';
 import Link from 'next/link';
 
 interface Props {
-  href: Url;
+  href: string;
   children: string | React.ReactNode;
 }
 
