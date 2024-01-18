@@ -25,15 +25,16 @@ export const RecommendedAnime = () => {
         className='h-full object-cover z-0'
       />
       <MarginPage>
-        <div className='absolute top-0 flex flex-col justify-center h-full w-[30%] z-20 gap-4'>
+        <div className='absolute top-0 flex flex-col justify-center items-center sm:items-stretch h-full xl:w-[35%] md:w-[40%] sm:w-[50%] z-20 gap-4'>
           {/* <h3 className='text-4xl font-semibold'>{animeData.title}</h3> */}
           <Image
             src={animeData.titleImage}
             alt={animeData.title}
             width={350}
             height={350}
+            className='w-full sm:w-[80%]'
           />
-          <p className='opacity-90'>{animeData.description}</p>
+          <p className='opacity-90 w-full'>{animeData.description}</p>
           <div className='flex gap-3'>
             <Button>
               <PlayIcon className='fill-tx100' />
