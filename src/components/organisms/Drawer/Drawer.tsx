@@ -1,0 +1,60 @@
+import { LinkNavbar } from '@/components';
+import { HomeIcon, ListIcon, CategoryIcon, MenuIcon } from '@/icons';
+
+interface DrawerProps {
+  showDrawer: Boolean;
+  setShowDrawer: any;
+}
+
+export const Drawer = ({ showDrawer, setShowDrawer }: DrawerProps) => {
+  const handleShowDrawer = () => {
+    setShowDrawer((value: Boolean) => !value);
+  };
+
+  const links = [
+    {
+      title: 'Home',
+      icon: <HomeIcon className='fill-tx100' />,
+      href: '/',
+    },
+    {
+      title: 'List',
+      icon: <ListIcon className='fill-tx100' />,
+      href: '/list',
+    },
+    {
+      title: 'Categories',
+      icon: <CategoryIcon className='fill-tx100' />,
+      href: '/categories',
+    },
+  ];
+
+  return (
+    <section
+      className={`fixed z-50 bg-bg100 w-[250px] h-screen ${
+        showDrawer ? 'right-0' : '-right-[250px]'
+      } top-0 p-4 duration-200`}
+    >
+      <div className='w-full bg-accent100 rounded p-1 mb-3 flex items-center'>
+        <button
+          onClick={handleShowDrawer}
+          className='hover:bg-bg300/40 p-1 rounded-full'
+        >
+          <MenuIcon width={40} height={40} className='fill-tx100' />
+        </button>
+        <span className='uppercase text-xl font-semibold text-tx100 text-center flex-grow'>
+          R&R:Anime
+        </span>
+      </div>
+
+      <nav className='w-full'>
+        {links.map(({ title, icon, href }) => (
+          <LinkNavbar href={href} key={title}>
+            {icon}
+            {title}
+          </LinkNavbar>
+        ))}
+      </nav>
+    </section>
+  );
+};
