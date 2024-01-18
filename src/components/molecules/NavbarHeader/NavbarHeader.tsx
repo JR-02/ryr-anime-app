@@ -23,11 +23,9 @@ export const NavbarHeader = () => {
   return (
     <nav className='flex gap-4 border-r-[1px] border-gray-400/50 pr-3'>
       {LinkDirectory.map((element) => (
-        <LinkNavbar
-          href={element.href}
-          content={element.content}
-          key={element.content}
-        />
+        <LinkNavbar href={element.href} key={element.content}>
+          {element.content}
+        </LinkNavbar>
       ))}
     </nav>
   );
