@@ -1,4 +1,4 @@
-import { LinkNavbar } from '@/components';
+import { LinkNavbar, SearchHeader } from '@/components';
 import { HomeIcon, ListIcon, CategoryIcon, MenuIcon } from '@/icons';
 
 interface DrawerProps {
@@ -46,6 +46,8 @@ export const Drawer = ({ showDrawer, setShowDrawer }: DrawerProps) => {
           R&R:Anime
         </span>
       </div>
+
+      <SearchHeader className='w-full bg-bg200 lg:hidden' />
 
       <nav className='w-full'>
         {links.map(({ title, icon, href }) => (

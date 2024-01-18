@@ -16,7 +16,7 @@ export const Header = () => {
       <MarginPage className='flex items-center py-4'>
         <Logo className='flex flex-grow basis-0'>R&R:Anime</Logo>
 
-        <SearchHeader />
+        <SearchHeader className='w-[500px] hidden lg:block' />
 
         <div className='flex flex-grow basis-0 justify-end'>
           <button
