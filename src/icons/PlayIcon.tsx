@@ -1,4 +1,4 @@
-import { IconsProps } from '../interfaces/IconsInterfaces';
+import { IconsProps } from '@/interfaces';
 
 export const PlayIcon = ({ width, height, fill, className }: IconsProps) => (
   <svg
