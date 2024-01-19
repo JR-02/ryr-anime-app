@@ -1,9 +1,11 @@
 'use client';
 
-import { Button, MarginPage } from '@/components';
-import { recommendedAnimeData } from '@/data';
-import { ListPlusIcon, PlayIcon } from '@/icons';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+
+import { Button, MarginPage } from '@/components';
+import { ListPlusIcon, PlayIcon } from '@/icons';
+import { recommendedAnimeData } from '@/data';
 
 interface animeRecommended {
   title: string;
@@ -13,7 +15,26 @@ interface animeRecommended {
 }
 
 export const RecommendedAnime = () => {
-  const animeData: animeRecommended = recommendedAnimeData[1];
+  const [animePosition, setAnimePosition] = useState<number>(0);
+
+  const animeData: animeRecommended = recommendedAnimeData[animePosition];
+  const refInterval = useRef<NodeJS.Timeout>();
+
+  useEffect(() => {
+    refInterval.current && clearInterval(refInterval.current);
+
+    refInterval.current = setInterval(
+      () =>
+        setAnimePosition((v: number) => {
+          if (v < recommendedAnimeData.length - 1) {
+            return v + 1;
+          }
+          return v;
+        }),
+      180000
+    );
+  }, [animePosition]);
+
   return (
     <section className='h-screen relative text-tx100 mb-10'>
       <div className='absolute z-10 bottom-0 top-0 h-full w-full bg-gradient-to-b from-bg100/90 via-bg100/30 to-bg100' />
@@ -34,7 +55,9 @@ export const RecommendedAnime = () => {
             height={350}
             className='w-full sm:w-[80%]'
           />
-          <p className='opacity-90 w-full'>{animeData.description}</p>
+          <p className='opacity-90 w-full text-pretty'>
+            {animeData.description}
+          </p>
           <div className='flex gap-3'>
             <Button>
               <PlayIcon className='fill-tx100' />
