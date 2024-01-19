@@ -58,7 +58,7 @@ export const Drawer = ({ showDrawer, setShowDrawer }: DrawerProps) => {
 
         <nav className='w-full flex flex-col gap-2'>
           {links.map(({ title, icon, path }) => (
-            <LinkNavbar path={path} key={title}>
+            <LinkNavbar onClick={handleShowDrawer} path={path} key={title}>
               {icon}
               {title}
             </LinkNavbar>
