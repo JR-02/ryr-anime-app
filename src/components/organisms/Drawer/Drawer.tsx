@@ -15,17 +15,17 @@ export const Drawer = ({ showDrawer, setShowDrawer }: DrawerProps) => {
     {
       title: 'Home',
       icon: <HomeIcon className='fill-tx100' />,
-      href: '/',
+      path: '/',
     },
     {
       title: 'List',
       icon: <ListIcon className='fill-tx100' />,
-      href: '/list',
+      path: '/list',
     },
     {
       title: 'Categories',
       icon: <CategoryIcon className='fill-tx100' />,
-      href: '/categories',
+      path: '/categories',
     },
   ];
 
@@ -42,7 +42,7 @@ export const Drawer = ({ showDrawer, setShowDrawer }: DrawerProps) => {
           showDrawer ? 'right-0' : '-right-[250px]'
         } top-0 p-4 duration-200`}
       >
-        <div className='w-full bg-accent100 rounded p-1 flex items-center'>
+        <div className='w-full rounded p-1 flex items-center'>
           <button
             onClick={handleShowDrawer}
             className='hover:bg-bg300/40 p-1 rounded-full'
@@ -56,9 +56,9 @@ export const Drawer = ({ showDrawer, setShowDrawer }: DrawerProps) => {
 
         <SearchHeader className='w-full bg-bg200 lg:hidden' />
 
-        <nav className='w-full'>
-          {links.map(({ title, icon, href }) => (
-            <LinkNavbar href={href} key={title}>
+        <nav className='w-full flex flex-col gap-2'>
+          {links.map(({ title, icon, path }) => (
+            <LinkNavbar path={path} key={title}>
               {icon}
               {title}
             </LinkNavbar>
