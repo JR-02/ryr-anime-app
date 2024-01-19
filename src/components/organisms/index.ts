@@ -1,4 +1,5 @@
 export { CategoriesAnime } from './CategoriesAnime/CategoriesAnime';
+export { Category } from './Category/Category';
 export { Drawer } from './Drawer/Drawer';
 export { Footer } from './Footer/Footer';
 export { Header } from './Header/Header';
