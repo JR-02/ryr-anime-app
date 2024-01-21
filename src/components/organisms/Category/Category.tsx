@@ -1,4 +1,4 @@
-import { TitleSection, GridCategory } from '@/components';
+import { Heading3, GridCategory } from '@/components';
 
 interface Props {
   title: string;
@@ -13,9 +13,9 @@ interface Anime {
 
 export const Category = ({ title, animes }: Props) => {
   return (
-    <div>
-      <TitleSection>{`${title}:`}</TitleSection>
+    <section>
+      <Heading3>{title}:</Heading3>
       <GridCategory animes={animes} />
-    </div>
+    </section>
   );
 };

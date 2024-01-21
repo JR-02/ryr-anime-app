@@ -1,9 +1,9 @@
-import { TitleSection, GridAnimeEpisodes } from '@/components';
+import { Heading3, GridAnimeEpisodes } from '@/components';
 
 export const NewEpisodes = () => {
   return (
     <section className='mb-10'>
-      <TitleSection>New Episodes:</TitleSection>
+      <Heading3>New Episodes:</Heading3>
       <GridAnimeEpisodes />
     </section>
   );

@@ -1,9 +1,9 @@
-import { GridNewAnimes, TitleSection } from '@/components';
+import { GridNewAnimes, Heading3 } from '@/components';
 
 export const NewAnimes = () => {
   return (
     <section className='mb-4'>
-      <TitleSection>New Animes:</TitleSection>
+      <Heading3>New Animes:</Heading3>
       <GridNewAnimes />
     </section>
   );
