@@ -206,4 +206,69 @@ export const categoriesPage: CategoriesPage[] = [
       },
     ],
   },
+  {
+    category: 'Ciencia Ficción',
+    animes: [
+      {
+        title: 'Metallic Rouge',
+        rating: 6.7,
+        poster:
+          'https://image.tmdb.org/t/p/original/oLMLxZBmIFE6tWg5s8UwuYOWTVI.jpg',
+      },
+      {
+        title: 'Dr. Stone',
+        rating: 7.5,
+        poster:
+          'https://image.tmdb.org/t/p/original/xbZQ3fDl0y5mt0ARwfeyrgQ4JTw.jpg',
+      },
+      {
+        title: 'NieR:Automata Ver1.1a',
+        rating: 8.7,
+        poster:
+          'https://image.tmdb.org/t/p/original/qHSCYOXHV3EKXKkMxUvC9rGx4Av.jpg',
+      },
+      {
+        title: '86: Eighty-Six',
+        rating: 8.5,
+        poster:
+          'https://image.tmdb.org/t/p/original/60gOfVZC0OPgnwUmuhbyAJ31p3O.jpg',
+      },
+      {
+        title: 'Dolls’ Frontline',
+        rating: 5.5,
+        poster:
+          'https://image.tmdb.org/t/p/original/c5GOXlm4kfRdK4w6XXwDGabW6A0.jpg',
+      },
+      {
+        title: 'Scarlet Nexus',
+        rating: 6.5,
+        poster:
+          'https://image.tmdb.org/t/p/original/oiuyTyGKrim6iUIP37WHV3uGmv3.jpg',
+      },
+      {
+        title: 'Azur',
+        rating: 8.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/3qlYMlrRJCQvlht71fWrP5Zc4Pc.jpg',
+      },
+      {
+        title: 'Yakusoku no Neverland',
+        rating: 7.6,
+        poster:
+          'https://image.tmdb.org/t/p/original/4ojYZGjs1wlXu4gMAVGxKkNvOGj.jpg',
+      },
+      {
+        title: 'Deca-Dence',
+        rating: 7.8,
+        poster:
+          'https://image.tmdb.org/t/p/original/xVGDTssXz5KBIqU1R16toTV1Gfu.jpg',
+      },
+      {
+        title: 'Btooom',
+        rating: 8.0,
+        poster:
+          'https://image.tmdb.org/t/p/original/u6rusfe5xiwHRFf5XtuZa8KmKjP.jpg',
+      },
+    ],
+  },
 ];
