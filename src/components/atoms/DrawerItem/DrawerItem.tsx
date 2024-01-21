@@ -7,7 +7,7 @@ interface Props {
   onClick: () => void;
 }
 
-export const LinkNavbar = ({ path, children, onClick }: Props) => {
+export const DrawerItem = ({ path, children, onClick }: Props) => {
   const currentPath = usePathname();
 
   return (

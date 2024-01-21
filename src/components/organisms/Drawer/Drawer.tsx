@@ -1,4 +1,4 @@
-import { LinkNavbar, SearchHeader } from '@/components';
+import { DrawerItem, SearchHeader } from '@/components';
 import { HomeIcon, ListIcon, CategoryIcon, MenuIcon } from '@/icons';
 
 interface DrawerProps {
@@ -58,10 +58,10 @@ export const Drawer = ({ showDrawer, setShowDrawer }: DrawerProps) => {
 
         <nav className='w-full flex flex-col gap-2'>
           {links.map(({ title, icon, path }) => (
-            <LinkNavbar onClick={handleShowDrawer} path={path} key={title}>
+            <DrawerItem onClick={handleShowDrawer} path={path} key={title}>
               {icon}
               {title}
-            </LinkNavbar>
+            </DrawerItem>
           ))}
         </nav>
       </section>
