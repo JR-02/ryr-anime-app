@@ -1,9 +1,9 @@
-import { CardAnimeEpisode } from '@/components';
+import { CardAnimeEpisode, GridSlider } from '@/components';
 import { newEpisodeData } from '@/data';
 
 export const GridAnimeEpisodes = () => {
   return (
-    <section className='grid gap-5 grid-flow-col overflow-x-scroll scrollbar-bottom pb-4'>
+    <GridSlider>
       {newEpisodeData.map(({ title, image, rating }) => (
         <CardAnimeEpisode
           title={title}
@@ -12,6 +12,6 @@ export const GridAnimeEpisodes = () => {
           key={title}
         />
       ))}
-    </section>
+    </GridSlider>
   );
 };

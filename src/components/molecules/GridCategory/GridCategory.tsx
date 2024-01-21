@@ -1,4 +1,4 @@
-import { CardAnimePoster } from '@/components';
+import { CardAnimePoster, GridSlider } from '@/components';
 
 interface Props {
   animes: Anime[];
@@ -12,7 +12,7 @@ interface Anime {
 
 export const GridCategory = ({ animes }: Props) => {
   return (
-    <section className='grid gap-5 grid-flow-col overflow-x-scroll scrollbar-bottom pb-4 [&>a]:w-[180px]'>
+    <GridSlider className='[&>a]:w-[180px]'>
       {animes.map(({ title, poster, rating }: Anime) => (
         <CardAnimePoster
           title={title}
@@ -21,6 +21,6 @@ export const GridCategory = ({ animes }: Props) => {
           key={title}
         />
       ))}
-    </section>
+    </GridSlider>
   );
 };

@@ -1,9 +1,9 @@
-import { CardAnimeCategories } from '@/components';
+import { CardAnimeCategories, GridSlider } from '@/components';
 import { animeCategoriesData } from '@/data';
 
 export const GridAnimeCategories = () => {
   return (
-    <section className='grid grid-rows-2 gap-4 grid-flow-col overflow-x-scroll scrollbar-bottom pb-4'>
+    <GridSlider className='grid-rows-2'>
       {animeCategoriesData.map(({ category, image }) => {
         return (
           <CardAnimeCategories
@@ -13,6 +13,6 @@ export const GridAnimeCategories = () => {
           />
         );
       })}
-    </section>
+    </GridSlider>
   );
 };
