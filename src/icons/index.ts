@@ -1,7 +1,9 @@
-export { CategoryIcon } from './CategoryIcon';
-export { HomeIcon } from './HomeIcon';
-export { ListIcon } from './ListIcon';
-export { ListPlusIcon } from './ListPlusIcon';
-export { MenuIcon } from './MenuIcon';
-export { PlayIcon } from './PlayIcon';
-export { StarIcon } from './StarIcon';
+export * from './ArrowLeftIcon';
+export * from './ArrowRightIcon';
+export * from './CategoryIcon';
+export * from './HomeIcon';
+export * from './ListIcon';
+export * from './ListPlusIcon';
+export * from './MenuIcon';
+export * from './PlayIcon';
+export * from './StarIcon';
