@@ -73,6 +73,126 @@ export const categoriesPage: CategoriesPage[] = [
         poster:
           'https://image.tmdb.org/t/p/original/dmUuNVWAJumRkDNuauFaLSvga00.jpg',
       },
+      {
+        title: 'Solo Leveling (Ore dake Level Up na Ken)',
+        rating: 7.2,
+        poster:
+          'https://image.tmdb.org/t/p/original/451lpwzbSKClDUHmKxOcBboBf7E.jpg',
+      },
+      {
+        title: 'Saihate no Paladin',
+        rating: 7.3,
+        poster:
+          'https://image.tmdb.org/t/p/original/np72JmV9kjx3I9b5sHyoMcHT33H.jpg',
+      },
+      {
+        title: 'Hametsu no Oukoku',
+        rating: 6.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/kdZXiaF5EYASkCYEyKrqrz8036.jpg',
+      },
+      {
+        title: 'Kage no Jitsuryokusha ni Naritakute!',
+        rating: 7.4,
+        poster:
+          'https://image.tmdb.org/t/p/original/vP9AbL4wHz0eKlg6gu1nKMZA1Jc.jpg',
+      },
+      {
+        title: 'Bleach',
+        rating: 7.8,
+        poster:
+          'https://image.tmdb.org/t/p/original/mB6h4mlZXufkWtt58Bh1DiVvNgv.jpg',
+      },
+      {
+        title: 'NieR:Automata Ver1.1a',
+        rating: 8.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/qHSCYOXHV3EKXKkMxUvC9rGx4Av.jpg',
+      },
+      {
+        title: 'Shuumatsu no Walküre',
+        rating: 7.6,
+        poster:
+          'https://image.tmdb.org/t/p/original/ygE1AEV6pXFuCzbjS9ts59LxDm5.jpg',
+      },
+      {
+        title: 'Chainsaw Man',
+        rating: 7.4,
+        poster:
+          'https://image.tmdb.org/t/p/original/mIz0eKhzHuSPeRSePCyoCt9bKVp.jpg',
+      },
+      {
+        title: 'Sword Art Online',
+        rating: 7.6,
+        poster:
+          'https://image.tmdb.org/t/p/original/mK9zGGk90VmHLOnK79sqlGFjZjW.jpg',
+      },
+      {
+        title: 'Overlord',
+        rating: 8.0,
+        poster:
+          'https://image.tmdb.org/t/p/original/6l6yukaVkE3r2fH4PcFEApKlpYi.jpg',
+      },
+      {
+        title: 'Engage Kiss',
+        rating: 6.2,
+        poster:
+          'https://image.tmdb.org/t/p/original/6Kicbd8AmHtqHOULNUw312V22bZ.jpg',
+      },
+      {
+        title: 'Shingeki no Kyojin',
+        rating: 8.2,
+        poster:
+          'https://image.tmdb.org/t/p/original/5AKw0SflWQxfZjFZSKN4WArp9Mz.jpg',
+      },
+      {
+        title: 'Koroshi Ai',
+        rating: 6.4,
+        poster:
+          'https://image.tmdb.org/t/p/original/xSn1VQ8nvf7vH4qMh0k2FiJMrrv.jpg',
+      },
+      {
+        title: 'Takt Op. Destiny',
+        rating: 6.1,
+        poster:
+          'https://image.tmdb.org/t/p/original/m1sJZonLyL0EG25qNc99Ml5DLlu.jpg',
+      },
+      {
+        title: 'Enen no Shouboutai',
+        rating: 7.6,
+        poster:
+          'https://image.tmdb.org/t/p/original/qDNgM4STqdzl4IBMyqCVMIr6uUV.jpg',
+      },
+      {
+        title: 'Nanatsu no Taizai',
+        rating: 7.6,
+        poster:
+          'https://image.tmdb.org/t/p/original/sKT25tkNMSpLbqfBr4lnhsIdvec.jpg',
+      },
+      {
+        title: 'Tokyo Revengers',
+        rating: 8.1,
+        poster:
+          'https://image.tmdb.org/t/p/original/bDNlXl8Ola3vatbq1OiSWV5UXBO.jpg',
+      },
+      {
+        title: '86: Eighty-Six',
+        rating: 8.4,
+        poster:
+          'https://image.tmdb.org/t/p/original/60gOfVZC0OPgnwUmuhbyAJ31p3O.jpg',
+      },
+      {
+        title: 'Akame ga Kill!',
+        rating: 7.6,
+        poster:
+          'https://image.tmdb.org/t/p/original/hDzm2VXxdeK5kztUN3RWTkBsBZg.jpg',
+      },
+      {
+        title: 'Deca-Dence',
+        rating: 7.8,
+        poster:
+          'https://image.tmdb.org/t/p/original/xVGDTssXz5KBIqU1R16toTV1Gfu.jpg',
+      },
     ],
   },
   {
@@ -97,10 +217,52 @@ export const categoriesPage: CategoriesPage[] = [
           'https://image.tmdb.org/t/p/original/gpKkTtVMoneNPBdsQv3E77kgT8e.jpg',
       },
       {
+        title: 'Naruto',
+        rating: 6.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/Asv6ornwVeMxKUdA5ySLMrgENwy.jpg',
+      },
+      {
+        title: 'Naruto Shippuden',
+        rating: 7.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/zAYRe2bJxpWTVrwwmBc00VFkAf4.jpg',
+      },
+      {
+        title: 'Dragon Ball',
+        rating: 7.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/onCLyCOgszTIyyVs2XKYSkKPOPG.jpg',
+      },
+      {
         title: 'Dragon Ball Z',
         rating: 9.1,
         poster:
           'https://image.tmdb.org/t/p/original/jB9l4mp0bzBgzE5y4tvBH6AMeMk.jpg',
+      },
+      {
+        title: 'Dragon Ball Z Kai',
+        rating: 8.1,
+        poster:
+          'https://image.tmdb.org/t/p/original/yh11eNQyZOgZLMEW7llKYQ0oGcJ.jpg',
+      },
+      {
+        title: 'Dragon Ball Super',
+        rating: 9.1,
+        poster:
+          'https://image.tmdb.org/t/p/original/98tMo9NWnecRVRL1VR5sYLsYrsu.jpg',
+      },
+      {
+        title: 'Dragon Ball Heroes',
+        rating: 9.2,
+        poster:
+          'https://image.tmdb.org/t/p/original/8jq6xv5c1WK7KAPOXCsodm8eUxp.jpg',
+      },
+      {
+        title: 'Dragon Ball GT',
+        rating: 6.0,
+        poster:
+          'https://image.tmdb.org/t/p/original/rLHhDpv6rrhuzBjNzaMRNv2fng.jpg',
       },
       {
         title: 'Baki',
@@ -137,6 +299,54 @@ export const categoriesPage: CategoriesPage[] = [
         rating: 7.5,
         poster:
           'https://image.tmdb.org/t/p/original/lokIbr6KuBGQKwAlUGTs8eY0u3D.jpg',
+      },
+      {
+        title: 'Ben-To',
+        rating: 8.0,
+        poster:
+          'https://image.tmdb.org/t/p/original/tilQgKy9zLo4nSVAaphRMhC0Tbu.jpg',
+      },
+      {
+        title: 'Ken En Ken: Aoki Kagayaki',
+        rating: 6.0,
+        poster:
+          'https://image.tmdb.org/t/p/original/7lVvblfZr6hpMON58V7hKbdHGJ0.jpg',
+      },
+      {
+        title: 'Kenichi',
+        rating: 8.0,
+        poster:
+          'https://image.tmdb.org/t/p/original/yxvPU6QzRjhy58HFkFoXn60z7n9.jpg',
+      },
+      {
+        title: 'Fullmetal Alchemist: Brotherhood',
+        rating: 6.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/iAld03IP69UEpqQbVWoRBvjqkqX.jpg',
+      },
+      {
+        title: 'Tenjo Tenge',
+        rating: 6.9,
+        poster:
+          'https://image.tmdb.org/t/p/original/mTkTqRFusTa5rZW8S9YxPhOwIcw.jpg',
+      },
+      {
+        title: 'Kurozuka',
+        rating: 5.8,
+        poster:
+          'https://image.tmdb.org/t/p/original/hez6h5LZxedDfzHHPu3iqj2Gm82.jpg',
+      },
+      {
+        title: 'Samurai Champloo',
+        rating: 7.3,
+        poster:
+          'https://image.tmdb.org/t/p/original/cPrskObKWlhJHEXMDej5Q5jrqc8.jpg',
+      },
+      {
+        title: 'Shigurui: Death Frenzy',
+        rating: 8.3,
+        poster:
+          'https://image.tmdb.org/t/p/original/me1yCtPZAC6kEW1IGWW7XxJASCt.jpg',
       },
     ],
   },
