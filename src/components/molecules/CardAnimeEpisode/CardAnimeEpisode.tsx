@@ -27,7 +27,7 @@ export const CardAnimeEpisode = ({ title, image, rating }: Props) => {
 
       <span className='z-10 absolute bottom-11 left-2 bg-bg200/60 backdrop-blur-sm p-2 rounded-3xl text-tx100 text-xs flex items-center gap-1'>
         <StarIcon width={14} height={14} />
-        {rating}
+        {rating.toFixed(1)}
       </span>
 
       <span className='text-tx100 line-clamp-1 p-2'>{title}</span>

@@ -13,7 +13,7 @@ export const CardAnimePoster = ({ image, title, rating, premiere }: Props) => {
   return (
     <Link
       href='/'
-      className='w-full overflow-hidden rounded-md bg-bg200 flex flex-col relative'
+      className='slide w-full overflow-hidden rounded-md bg-bg200 flex flex-col relative'
     >
       {premiere && (
         <span
@@ -28,6 +28,7 @@ export const CardAnimePoster = ({ image, title, rating, premiere }: Props) => {
       <Image
         src={image}
         alt={title}
+        priority
         width={300}
         height={300}
         className='object-cover h-full w-full'
